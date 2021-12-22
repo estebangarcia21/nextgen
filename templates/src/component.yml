@@ -1,0 +1,27 @@
+js:
+  - name: <name>
+    react: true
+    src: |
+      export function <name>(props) {
+        return (
+          <>
+            
+          </>
+        )
+      }
+
+ts:
+  - name: <name>
+    react: true
+    src: |
+      export interface <name>Props {
+
+      }
+
+      export function <name>(props: <name>Props) {
+        return (
+          <>
+            
+          </>
+        )
+      }
